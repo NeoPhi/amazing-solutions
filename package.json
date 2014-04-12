@@ -1,0 +1,26 @@
+{
+  "name": "amazing-solutions",
+  "version": "0.1.0",
+  "description": "Amazing Algorithms Solutions",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul test jasmine-node -- src/test/node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NeoPhi/amazing-solutions.git"
+  },
+  "author": "Daniel Rinehart <danielr@neophi.com>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/NeoPhi/amazing-solutions/issues"
+  },
+  "dependencies": {
+    "underscore": "~1.6.0"
+  },
+  "devDependencies": {
+    "jasmine-node": "~1.11.0",
+    "istanbul": "^0.2.7"
+  }
+}
